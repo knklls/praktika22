@@ -1,0 +1,350 @@
+body {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5E6282;
+    background-image: url(images/Decore.png), url(images/ellip.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right top, left top;
+}
+
+.navbar {
+    margin-top: 47px;
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+.navbar-brand {
+    margin-right: 222px;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 60px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+    color: #212832;
+}
+
+
+.section-intro {
+    padding-bottom: 49px;
+}
+
+
+.section-intro .container {
+    padding-top: 112px;
+    padding-bottom: 114px;
+    background-image: url(images/girl.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 764px;
+}
+
+.section-intro .intro-tagline-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    color: #DF6951;
+}
+
+.section-intro .intro-promotion {
+    font-family: 'Volkhov';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 89px;
+    letter-spacing: -0.04em;
+    margin-bottom: 30px;
+    color: #181E4B;
+    background-image: url(images/lin.png);
+    background-repeat: no-repeat;
+    background-position: 243px 69px;
+
+}
+
+.section-intro .intro-comment {
+    margin-bottom: 34px;
+}
+
+.section-intro .btn-find-out-more {
+    width: 170px;
+    height: 60px;
+    margin-right: 44px;
+    background: #F1A501;
+    box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+    border-radius: 10px;
+    color: white;
+}
+
+.section-intro .btn-play-demo {
+    width: 52px;
+    height: 52px;
+    margin-right: 21px;
+    background: #DF6951;
+    box-shadow: 0px 15px 30px rgba(223, 105, 81, 0.3);
+    border-radius: 50%;
+    font-size: 21px;
+    color: white;
+}
+
+.section-offers {
+    padding-top: 49px;
+    background-color: aliceblue;
+    display: flex;
+    padding-bottom: 95px;
+}
+
+.section-offers .offer-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #5E6282;
+}
+
+.section-offers .offer-tagline {
+    font-family: 'Volkhov';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 68px;
+    color: #14183E;
+}
+
+.section-offers .container {
+    background-image: url(images/plus.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.section-offers .offer-items .offer-item {
+    width: 267px;
+    height: 314px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 30px 45px 30px;
+    background: #FFFFFF;
+    border-radius: 36px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.section-offers .offer-items .offer-item .offer-item__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #1E1D4C;
+    margin-bottom: 15px;
+}
+
+.section-offers .offer-items .offer-item .offer-item__description {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #5E6282;
+    padding: 0 9px;
+}
+
+.section-offers .offer-items .offer-item:hover,
+.section-offers .offer-items .offer-item.active {
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+}
+
+.section-offers .offer-items .offer-item__img_active_bg {
+    position: absolute;
+    left: -35px;
+    bottom: -33px;
+}
+
+.section-top-selling {
+    padding-top: 95px;
+    padding-bottom: 100px;
+}
+
+.section-top-selling .section-top-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #5E6282;
+}
+
+.section-top-selling .section-top-tagline {
+    font-family: 'Volkhov';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #14183E;
+    margin-bottom: 60px;
+}
+
+.section-top-selling .top-selling-item {
+    border-radius: 24px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 24px;
+    box-shadow: 0 40px 40px rgb(232, 232, 232);
+    cursor: pointer;
+}
+
+.section-top-selling .top-selling-item>img {
+    width: 100%;
+    height: 457px;
+    position: relative;
+    object-fit: cover;
+    object-position: top;
+}
+
+
+.section-top-selling .top-selling-item .top-selling-item__info {
+    position: absolute;
+    background: white;
+    left: 0;
+    right: 0;
+    bottom: -130px;
+    height: 130px;
+    padding: 27px 20px 42px 20px;
+    transition: all .3s;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 124.5%;
+    color: #5E6282;
+}
+
+.section-top-selling .top-selling-item .top-selling-item__description {
+    margin-bottom: 19px;
+}
+
+.section-top-selling .top-selling-item  .top-selling-item__length i {
+    margin-right: 15px;
+}
+
+.section-top-selling .top-selling-item:hover .top-selling-item__info,
+.section-top-selling .top-selling-item.active .top-selling-item__info {
+    bottom: 0;
+}
+
+.BookZagalovok{
+	font-family: 'Poppins';
+	font-size: 18px;
+	margin-bottom: 17px;
+	color: #5E6282;
+}
+
+.BookText{
+	font-family: 'Volkhov';
+	text-transform: capitalize;
+	font-size: 50px;
+	margin-bottom: 20px;
+	font-weight: 800;
+	color: #14183E;
+}
+
+.BookTwo {
+	font-family: 'Poppins';
+	font-size: 18px;
+	margin-bottom: 5px;
+	font-weight: 600;
+	line-height: 120%;
+	color: #5E6282;
+}
+.BookImg{
+	margin-top:-600px;
+	margin-left:800px;
+	position: relative;
+}
+
+.otst{
+	margin-left:100px;
+	margin-right:50px;
+}
+
+.Bookpodtext {
+	font-family: 'Poppins';
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 120%;
+	color: #5E6282;
+}
+
+.containerZakl {
+    padding-top: 112px;
+    padding-bottom: 114px;
+	margin-top: 100px;
+}
+
+.NameCompany{
+	font-family: 'Poppins';
+	font-size: 44px;
+	line-height: 50px;
+	font-weight: 500;
+	color: #181E4B;
+}
+
+.Opisanie {
+	font-family: 'Poppins';
+	font-size: 18px;
+	color: #5E6282;
+}
+.otstup{
+	margin-left:100px;
+	margin-right:100px;
+	margin-top:-100px;
+}
+
+.NazvanieCompany {
+	font-family: 'Poppins';
+	font-size: 22px;
+	margin-bottom: 20px;
+	font-weight: 600;
+	line-height: 120%;
+	color: #080809;
+}
+.margin-right {
+    margin-right: 60px;
+}
+.Discover{
+	font-family: 'Poppins';
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 120%;
+	color: #5E6282;
+}
+.pochta {
+	font-family: 'Poppins';
+	font-size: 14px;
+	margin-top: 50px;
+	margin-left:650px;
+	color:gray;
+}
