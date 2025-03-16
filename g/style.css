@@ -284,7 +284,54 @@ body {
 	margin-left:800px;
 	position: relative;
 }
+.TestimonalisTitle {
+    font-family: 'Poppins';
+    font-weight: 600;
+    line-height: 27px;
+	font-size: 20px;
+    color: #5E6282;
+}
+.TestimonalisZag{
+    font-family: 'Volkhov';
+    font-weight: 700;
+    line-height: 64px;
+	margin-bottom: 60px;
+	font-size: 55px;
+    text-transform: capitalize;
+    color: #14183E;
 
+}
+.Podzagalovok{
+	margin-left:750px;
+	position: relative;
+	top:-200px;
+}
+.TestimonialsText{
+    font-family: 'Poppins';
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 18px;
+    color: #5E6282;
+}
+.NameTestiominals{
+    font-family: 'Poppins';
+    font-weight: 600;
+    margin-bottom: 18px;
+	margin:10px;
+    line-height: 25px;
+	font-size: 20px;
+    color: #5E6282;
+}
+.ttestiominalsNamePod{
+    font-family: 'Poppins';
+    font-weight: 500;
+    line-height: 20px;
+	padding-left: 10px;
+    top:-14px;
+	position: relative;
+	font-size: 16px;
+	color: #5E6282;
+}
 .otst{
 	margin-left:100px;
 	margin-right:50px;
@@ -292,9 +339,8 @@ body {
 
 .Bookpodtext {
 	font-family: 'Poppins';
-	font-size: 18px;
 	font-weight: 200;
-	line-height: 120%;
+	font-size: 18px;
 	color: #5E6282;
 }
 
